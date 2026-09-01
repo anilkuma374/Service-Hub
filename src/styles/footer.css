@@ -1,0 +1,33 @@
+.footer {
+    background: #171b24;
+    color: #d9dee7;
+    padding: 45px 7% 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 30px;
+}
+
+.footer h2,
+.footer h4 {
+    color: #fff;
+    margin-top: 0;
+}
+
+.footer a {
+    display: block;
+    margin: 10px 0;
+    color: #b7bfcb;
+}
+
+.copyright {
+    grid-column: 1/-1;
+    border-top: 1px solid #303744;
+    padding-top: 18px;
+    color: #87909d;
+}
+
+@media (max-width: 700px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+}

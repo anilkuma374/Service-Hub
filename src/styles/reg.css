@@ -1,0 +1,82 @@
+.reg-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background: #f3f5f7;
+}
+
+.reg-form {
+    width: 100%;
+    max-width: 460px;
+    padding: 35px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.reg-form h1 {
+    margin-bottom: 8px;
+}
+
+.reg-form label:first-of-type {
+    margin-top: 20px;
+}
+
+.reg-form > p {
+    color: #777;
+}
+
+.reg-form label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.reg-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+.reg-form button {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 22px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #ff6b35;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-link {
+    text-align: center;
+}
+
+.reg-form input:focus {
+    border-color: #ff6b35;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.12);
+}
+
+.reg-form button:hover {
+    background: #e95a27;
+}
+
+.reg-form > p:last-child {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.reg-form > p:last-child a {
+    color: #ff6b35;
+    font-weight: 700;
+}

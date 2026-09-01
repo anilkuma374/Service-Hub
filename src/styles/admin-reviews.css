@@ -1,0 +1,16 @@
+/* Styles for AdminReviews page */
+
+.admin-reviews-page {
+    width: 100%;
+    min-height: 100%;
+}
+
+.admin-reviews-page .table-wrap {
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+.admin-reviews-page td:nth-child(4) {
+    max-width: 320px;
+    line-height: 1.5;
+}

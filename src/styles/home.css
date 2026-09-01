@@ -1,0 +1,211 @@
+.hero {
+    min-height: 520px;
+    padding: 70px 9%;
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    align-items: center;
+    background: linear-gradient(135deg,#111827 0%,#312e81 45%,#0f766e 72%); color: #ffffff;
+}
+
+.tag {
+    color: #35d0ba;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.hero h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    margin: 15px 0;
+}
+
+.hero h1 span {
+    color: #35d0ba;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #dbe7f5;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 14px;
+    margin-top: 0;
+}
+
+.hero-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+    max-width: 560px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 8px;
+    min-height: 0;
+}
+
+.hero-visual img {
+    width: calc(50% - 9px);
+    max-width: 100%;
+    height: 260px;
+    object-fit: cover;
+    box-shadow: 0 18px 45px rgba(0,0,0,.28);
+    border-radius: 18px;
+    display: block;
+}
+
+.hero-visual img:first-child {
+    margin-top: 0;
+}
+
+.hero-visual img:last-child {
+    margin-top: 0;
+}
+
+.vehicle-choice,
+.features {
+    padding: 60px 9%;
+    text-align: center;
+}
+
+.choice-grid,
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.choice-grid a,
+.feature-grid article {
+    background: #fff;
+    border: 1px solid #e9edf2;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.04);
+}
+
+.choice-grid img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.feature-grid svg {
+    font-size: 45px;
+    color: #ff6b35;
+}
+
+.feature-grid {
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1100px;
+}
+
+.feature-grid p {
+    color: #697384;
+}
+
+@media (max-width: 800px) {
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 55px 7%;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero-visual {
+        margin-top: 30px;
+    }
+
+    .choice-grid,
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.choice-grid a:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(31, 45, 61, .12);
+}
+
+.choice-grid a {
+    transition: .2s ease;
+}
+
+
+.hero-visual {
+    min-width: 0;
+}
+
+.hero-visual img {
+    flex: 0 1 50%;
+    min-width: 0;
+}
+
+.choice-grid a {
+    border: 1px solid #d9e2f3;
+    background: linear-gradient(145deg, #ffffff, #f4f7ff);
+}
+
+.choice-grid h3 {
+    color: #243b7a;
+}
+
+.feature-grid article {
+    border: 1px solid #d9e2f3;
+    background: #f8faff;
+}
+
+
+.hero-visual {
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 28px;
+    padding: 16px;
+    /* backdrop-filter: blur(10px); */
+}
+
+.hero-visual img {
+    height: 250px;
+}
+
+.vehicle-choice { background: #f3f7fb; }
+.features { background: #ffffff; }
+.vehicle-choice h2, .features h2 { color: #102a43; }
+
+.hero-visual img {
+    min-height: 230px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-visual img:hover {
+    transform: scale(1.02);
+}
+
+.choice-grid img {
+    min-height: 190px;
+}
+
+@media (max-width: 800px) {
+    .hero-visual {
+        max-width: 100%;
+    }
+
+    .hero-visual img {
+        height: 220px;
+    }
+}

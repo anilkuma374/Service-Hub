@@ -1,0 +1,71 @@
+.users-page {
+    width: 100%;
+}
+
+.users-heading {
+    margin-bottom: 25px;
+}
+
+.users-heading h1 {
+    margin: 0;
+}
+
+.users-heading p {
+    color: #777;
+}
+
+.user-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.user-form input {
+    flex: 1;
+    min-width: 180px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.user-form button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6b35;
+    color: white;
+    cursor: pointer;
+}
+
+.user-form .cancel-btn {
+    background: #777;
+}
+
+.users-table-box {
+    overflow-x: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 7px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background: #1976d2;
+}
+
+.delete-btn {
+    background: #d32f2f;
+}

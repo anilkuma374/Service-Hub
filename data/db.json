@@ -1,0 +1,345 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@servicehub.com",
+      "mobile": "9999999999",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "AutoCare Center",
+      "email": "center@servicehub.com",
+      "mobile": "9876543210",
+      "password": "center123",
+      "role": "center"
+    },
+    {
+      "id": "3",
+      "name": "Anil Kumar",
+      "email": "anil@example.com",
+      "mobile": "9876543211",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1001",
+      "customer": "Anil Kumar",
+      "customerId": "3",
+      "vehicle": "Honda City",
+      "vehicleType": "Car",
+      "repairMode": "Full Service",
+      "service": "Full Service",
+      "center": "AutoCare Service Center",
+      "date": "2026-08-31",
+      "time": "10:00",
+      "status": "Confirmed",
+      "vipCustomer": "Yes"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "1",
+      "userId": "3",
+      "name": "Honda City",
+      "number": "TS09 AB 1234",
+      "type": "Car",
+      "model": "2023"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "name": "Royal Enfield Classic",
+      "number": "TS10 XY 5678",
+      "type": "Bike",
+      "model": "2022"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "name": "Full Car Service",
+      "vehicleType": "Car",
+      "repairMode": "General Service",
+      "price": "3499",
+      "duration": "4 Hours",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Bike General Service",
+      "vehicleType": "Bike",
+      "repairMode": "General Service",
+      "price": "1499",
+      "duration": "2 Hours",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "Brake Repair",
+      "vehicleType": "Car",
+      "repairMode": "Brake Repair",
+      "price": "1499",
+      "duration": "2 Hours",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "name": "Car Oil Change",
+      "vehicleType": "Car",
+      "repairMode": "Oil Change",
+      "price": "999",
+      "duration": "1 Hour",
+      "status": "Active"
+    },
+    {
+      "id": "5",
+      "name": "Car Engine Repair",
+      "vehicleType": "Car",
+      "repairMode": "Engine Repair",
+      "price": "5999",
+      "duration": "6 Hours",
+      "status": "Active"
+    },
+    {
+      "id": "6",
+      "name": "Car Battery Service",
+      "vehicleType": "Car",
+      "repairMode": "Battery Service",
+      "price": "1299",
+      "duration": "1 Hour",
+      "status": "Active"
+    },
+    {
+      "id": "7",
+      "name": "Car AC Service",
+      "vehicleType": "Car",
+      "repairMode": "AC Service",
+      "price": "1999",
+      "duration": "2 Hours",
+      "status": "Active"
+    },
+    {
+      "id": "8",
+      "name": "Bike Oil Change",
+      "vehicleType": "Bike",
+      "repairMode": "Oil Change",
+      "price": "499",
+      "duration": "1 Hour",
+      "status": "Active"
+    },
+    {
+      "id": "9",
+      "name": "Bike Brake Repair",
+      "vehicleType": "Bike",
+      "repairMode": "Brake Repair",
+      "price": "799",
+      "duration": "2 Hours",
+      "status": "Active"
+    },
+    {
+      "id": "10",
+      "name": "Bike Chain Service",
+      "vehicleType": "Bike",
+      "repairMode": "Chain Service",
+      "price": "699",
+      "duration": "1 Hour",
+      "status": "Active"
+    },
+    {
+      "id": "11",
+      "name": "Car Wheel Alignment",
+      "vehicleType": "Car",
+      "repairMode": "Wheel Alignment",
+      "price": "899",
+      "duration": "1 Hour",
+      "status": "Active"
+    },
+    {
+      "id": "12",
+      "name": "Car Tyre Service",
+      "vehicleType": "Car",
+      "repairMode": "Tyre Service",
+      "price": "1199",
+      "duration": "1 Hour",
+      "status": "Active"
+    },
+    {
+      "id": "13",
+      "name": "Bike Battery Service",
+      "vehicleType": "Bike",
+      "repairMode": "Battery Service",
+      "price": "699",
+      "duration": "1 Hour",
+      "status": "Active"
+    },
+    {
+      "id": "14",
+      "name": "Bike Tyre Service",
+      "vehicleType": "Bike",
+      "repairMode": "Tyre Service",
+      "price": "899",
+      "duration": "1 Hour",
+      "status": "Active"
+    },
+    {
+      "id": "15",
+      "name": "Bike Engine Repair",
+      "vehicleType": "Bike",
+      "repairMode": "Engine Repair",
+      "price": "2499",
+      "duration": "3 Hours",
+      "status": "Active"
+    },
+    {
+      "id": "16",
+      "name": "Car Interior Cleaning",
+      "vehicleType": "Car",
+      "repairMode": "Interior Cleaning",
+      "price": "1499",
+      "duration": "2 Hours",
+      "status": "Active"
+    }
+  ],
+  "serviceCenters": [
+    {
+      "id": "1",
+      "name": "AutoCare Service Center",
+      "location": "Hyderabad",
+      "phone": "+91 9876543210",
+      "services": "Car & Bike",
+      "rating": "4.5",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "BikeFix Garage",
+      "location": "Hyderabad",
+      "phone": "+91 9876500000",
+      "services": "Bike",
+      "rating": "4.2",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "Hyderabad Auto Works",
+      "location": "Madhapur, Hyderabad",
+      "phone": "+91 9876500001",
+      "services": "Car & Bike",
+      "rating": "4.6",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "name": "Metro Motors Care",
+      "location": "Kukatpally, Hyderabad",
+      "phone": "+91 9876500002",
+      "services": "Car",
+      "rating": "4.4",
+      "status": "Active"
+    },
+    {
+      "id": "5",
+      "name": "Speed Bike Garage",
+      "location": "Secunderabad",
+      "phone": "+91 9876500003",
+      "services": "Bike",
+      "rating": "4.7",
+      "status": "Active"
+    },
+    {
+      "id": "6",
+      "name": "Prime Car Care",
+      "location": "Gachibowli, Hyderabad",
+      "phone": "+91 9876500004",
+      "services": "Car",
+      "rating": "4.5",
+      "status": "Active"
+    },
+    {
+      "id": "7",
+      "name": "City Auto Care",
+      "location": "Banjara Hills, Hyderabad",
+      "phone": "+91 9876500005",
+      "services": "Car & Bike",
+      "rating": "4.8",
+      "status": "Active"
+    },
+    {
+      "id": "8",
+      "name": "RoadMaster Motors",
+      "location": "Kondapur, Hyderabad",
+      "phone": "+91 9876500006",
+      "services": "Car",
+      "rating": "4.3",
+      "status": "Active"
+    },
+    {
+      "id": "9",
+      "name": "Two Wheel Pro",
+      "location": "Ameerpet, Hyderabad",
+      "phone": "+91 9876500007",
+      "services": "Bike",
+      "rating": "4.6",
+      "status": "Active"
+    },
+    {
+      "id": "10",
+      "name": "GreenDrive Service Hub",
+      "location": "Hitech City, Hyderabad",
+      "phone": "+91 9876500008",
+      "services": "Car & Bike",
+      "rating": "4.7",
+      "status": "Active"
+    },
+    {
+      "id": "11",
+      "name": "MotorCare Point",
+      "location": "LB Nagar, Hyderabad",
+      "phone": "+91 9876500009",
+      "services": "Car",
+      "rating": "4.4",
+      "status": "Active"
+    },
+    {
+      "id": "12",
+      "name": "BikeWorks Garage",
+      "location": "Dilsukhnagar, Hyderabad",
+      "phone": "+91 9876500010",
+      "services": "Bike",
+      "rating": "4.5",
+      "status": "Active"
+    }
+  ],
+  "payments": [
+    {
+      "id": "101",
+      "customer": "Anil Kumar",
+      "amount": "3499",
+      "method": "UPI",
+      "status": "Success"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "customer": "Anil Kumar",
+      "center": "AutoCare Service Center",
+      "rating": "5",
+      "review": "Excellent service",
+      "status": "Visible"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "message": "New booking received",
+      "type": "Info",
+      "date": "2026-08-31"
+    }
+  ]
+}

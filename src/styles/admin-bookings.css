@@ -1,0 +1,18 @@
+
+.adminbookings-page,
+.admin-bookings-page {
+    width: 100%;
+    min-height: 100%;
+}
+
+.booking-admin-form {
+    background: #f8faff;
+    border: 1px solid #e5e9f5;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.booking-filters {
+    flex-wrap: wrap;
+    align-items: center;
+}
