@@ -1,6 +1,5 @@
 import axios from "axios";
-
-const BASE_URL = "http://localhost:5000";
+import { BASE_URL } from "../services/api";
 
 export const getUsers = () => {
     return axios
